@@ -9,7 +9,7 @@ function App() {
   // Define el state
   const [presupuesto, guardarPresupuesto] = useState(0);
   const [restante, guardarRestante] = useState(0);
-  const [ mostrarpregunta, actualizarPegunta ] = useState(true);
+  const [mostrarpregunta, actualizarPegunta] = useState(true);
   const [gastos, guardarGastos] = useState([]);
   const [gasto, guardarGasto] = useState({});
   const [creargasto, guardarCrearGasto] = useState(false);
